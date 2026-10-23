@@ -1,10 +1,10 @@
-import React from 'react'
-
-export default function Logo({ light = false }) {
+export default function Logo() {
   return (
-    <a href="#home" className={`brand ${light ? 'brand-light' : ''}`} aria-label="Swagarage home">
-      <span className="brand-mark"><span>S</span><span>G</span></span>
-      <span className="brand-type"><b>SWAGARAGE</b><i>Build Your Swag!</i></span>
+    <a href="/" className="logo" aria-label="Swagarage">
+      <img
+        src="/assets/logo.png"
+        alt="Swagarage - Build Your Swag"
+      />
     </a>
   )
 }

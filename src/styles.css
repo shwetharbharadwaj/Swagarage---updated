@@ -893,3 +893,28 @@ h1,h2{letter-spacing:-.065em}
     transition: none !important;
   }
 }
+
+/* ================================
+   SWAGARAGE LOGO ONLY
+================================ */
+
+.swagarage-logo {
+  width: 150px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.swagarage-logo img {
+  width: 150px;
+  height: auto;
+  max-width: 150px;
+  max-height: 80px;
+  object-fit: contain;
+  display: block;
+}
+
+

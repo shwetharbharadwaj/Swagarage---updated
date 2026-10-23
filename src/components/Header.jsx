@@ -8,22 +8,44 @@ export default function Header({ menuOpen, setMenuOpen }) {
   return (
     <>
       <div className="announcement">
-        <span className="announce-dot"></span>
-        Thoughtful gifting. Seamless execution.
-        <span className="announce-end">Made for brands that care <ArrowUpRight size={13}/></span>
+        <span className="announce-dot" aria-hidden="true"></span>
+        <span>Thoughtful gifting. Seamless execution.</span>
+        <span className="announce-end">
+          Made for brands that care
+          <ArrowUpRight size={13} strokeWidth={2} aria-hidden="true" />
+        </span>
       </div>
+
       <header className="header">
-        <Logo />
-        <nav className={menuOpen ? 'nav nav-open' : 'nav'}>
+
+        <div className="swagarage-logo">
+          <Logo />
+        </div>
+
+        <nav className={menuOpen ? 'nav nav-open' : 'nav'} aria-label="Main navigation">
           <a href="#what-we-do" onClick={closeMenu}>What we do</a>
           <a href="#approach" onClick={closeMenu}>Our approach</a>
           <a href="#about" onClick={closeMenu}>About us</a>
           <a href="#faq" onClick={closeMenu}>FAQs</a>
-          <a className="mobile-cta" href="#contact" onClick={closeMenu}>Let's talk <ArrowUpRight size={16}/></a>
+          <a className="mobile-cta" href="#contact" onClick={closeMenu}>
+            Let's talk
+            <ArrowUpRight size={16} strokeWidth={2} aria-hidden="true" />
+          </a>
         </nav>
-        <a className="header-cta" href="#contact">Let's talk <ArrowUpRight size={16}/></a>
-        <button className="menu-toggle" aria-label="Toggle menu" onClick={() => setMenuOpen(!menuOpen)}>
-          {menuOpen ? <X/> : <Menu/>}
+
+        <a className="header-cta" href="#contact">
+          Let's talk
+          <ArrowUpRight size={16} strokeWidth={2} aria-hidden="true" />
+        </a>
+
+        <button
+          type="button"
+          className="menu-toggle"
+          aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+          aria-expanded={menuOpen}
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          {menuOpen ? <X size={24} strokeWidth={2} aria-hidden="true" /> : <Menu size={24} strokeWidth={2} aria-hidden="true" />}
         </button>
       </header>
     </>

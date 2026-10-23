@@ -353,9 +353,6 @@ export default function Process() {
                   {/* Connector */}
 
                   <div className="roadmap-connector">
-
-                    <span className="connector-line" />
-
                     <span className="roadmap-node">
 
                       {isCompleted ? (

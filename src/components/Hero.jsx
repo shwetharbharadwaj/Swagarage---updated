@@ -86,7 +86,7 @@ export default function Hero() {
               <ArrowUpRight size={17} />
             </a>
 
-            <a href="#services" className="hero-secondary-btn">
+            <a href="#what-we-do" className="hero-secondary-btn">
               Explore what we do
               <ArrowUpRight size={16} />
             </a>

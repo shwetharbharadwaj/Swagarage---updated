@@ -10,9 +10,8 @@ export default function Header({ menuOpen, setMenuOpen }) {
       <div className="announcement">
         <span className="announce-dot" aria-hidden="true"></span>
         <span>Thoughtful gifting. Seamless execution.</span>
-        <span className="announce-end">
-          Made for brands that care
-          <ArrowUpRight size={13} strokeWidth={2} aria-hidden="true" />
+        <span className="announce-dot"aria-hidden="true"></span>
+           <span>Made for brands that care.
         </span>
       </div>
 

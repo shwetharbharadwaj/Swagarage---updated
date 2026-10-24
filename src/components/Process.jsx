@@ -133,7 +133,7 @@ export default function Process() {
           </div>
 
 
-          <div className="process-header-right">
+          {/* <div className="process-header-right">
 
             <span className="process-header-label">
               FROM BRIEF
@@ -147,7 +147,7 @@ export default function Process() {
               TO DELIVERY
             </span>
 
-          </div>
+          </div> */}
 
         </div>
 
@@ -163,19 +163,6 @@ export default function Process() {
             It is about getting every moving part to work together.
           </p>
 
-          <div className="process-intro-meta">
-
-            <span>
-              05 STEPS
-            </span>
-
-            <span className="process-meta-line" />
-
-            <span>
-              ONE CLEAR JOURNEY
-            </span>
-
-          </div>
 
         </div>
 
@@ -341,9 +328,7 @@ export default function Process() {
                           : 'EXPLORE STEP'}
                       </span>
 
-                      <ArrowUpRight
-                        size={15}
-                      />
+                      
 
                     </div>
 

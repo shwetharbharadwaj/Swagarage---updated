@@ -360,57 +360,7 @@ export default function Intro() {
         </div>
 
 
-        {/* =========================================
-            ACTIVE FEATURE
-        ========================================= */}
-
-        <div className="intro-feature-panel">
-
-
-          <div className="intro-feature-left">
-
-            <span className="feature-label">
-              WHY SWAGARAGE
-            </span>
-
-            <span className="feature-big-number">
-              {active.number}
-            </span>
-
-          </div>
-
-
-          <div className="intro-feature-icon">
-
-            <ActiveIcon
-              size={26}
-              strokeWidth={1.4}
-            />
-
-          </div>
-
-
-          <div className="intro-feature-content">
-
-            <h3>
-              {active.title}
-            </h3>
-
-            <p>
-              {active.description}
-            </p>
-
-          </div>
-
-
-          <div className="intro-feature-arrow">
-
-            <ArrowUpRight size={24} />
-
-          </div>
-
-        </div>
-
+       
 
         {/* =========================================
             VALUE NAVIGATION
@@ -473,7 +423,7 @@ export default function Intro() {
                       : 'EXPLORE'}
                   </span>
 
-                  <ArrowUpRight size={15} />
+                  {/* <ArrowUpRight size={15} /> */}
 
                 </div>
 
@@ -492,6 +442,58 @@ export default function Intro() {
         </div>
 
 
+ {/* =========================================
+            ACTIVE FEATURE
+        ========================================= */}
+
+        <div className="intro-feature-panel">
+
+
+          <div className="intro-feature-left">
+
+            <span className="feature-label">
+              WHY SWAGARAGE
+            </span>
+
+            <span className="feature-big-number">
+              {active.number}
+            </span>
+
+          </div>
+
+
+          <div className="intro-feature-icon">
+
+            <ActiveIcon
+              size={26}
+              strokeWidth={1.4}
+            />
+
+          </div>
+
+
+          <div className="intro-feature-content">
+
+            <h3>
+              {active.title}
+            </h3>
+
+            <p>
+              {active.description}
+            </p>
+
+          </div>
+
+
+          {/* <div className="intro-feature-arrow">
+
+            <ArrowUpRight size={24} />
+
+          </div> */}
+
+        </div>
+
+
         {/* =========================================
             INTERACTION HINT
         ========================================= */}
@@ -500,9 +502,9 @@ export default function Intro() {
 
           <MousePointer2 size={14} />
 
-          <span>
+          {/* <span>
             Hover to explore what makes great swag
-          </span>
+          </span> */}
 
         </div>
 

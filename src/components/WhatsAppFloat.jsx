@@ -7,7 +7,7 @@ const href = number ? `https://wa.me/${number}?text=${message}` : '#contact'
 
 export default function WhatsAppFloat() {
   return (
-<a
+ <a
   href={`https://wa.me/${number}`}
   className="whatsapp-float"
   target="_blank"

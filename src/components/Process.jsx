@@ -438,11 +438,11 @@ export default function Process() {
 
         <div className="process-interaction">
 
-          <MousePointer2 size={14} />
+          {/* <MousePointer2 size={14} /> */}
 
-          <span>
+          {/* <span>
             Hover over the journey
-          </span>
+          </span> */}
 
         </div>
 

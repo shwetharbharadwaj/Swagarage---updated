@@ -413,7 +413,8 @@ h1,h2{letter-spacing:-.065em}
 
   .section-pad{padding:70px 5%}.section-heading-row{display:block;margin:28px 0}.section-heading-row h2{font-size:clamp(40px,11vw,58px)}.section-heading-row>p{margin-top:18px;font-size:11px}.service-grid{grid-template-columns:1fr 1fr;gap:12px}.service-card,.service-card:nth-child(4),.service-card:nth-child(5){grid-column:auto}.service-image{height:170px}.service-info{padding:15px 13px 18px}.service-info h3{font-size:15px}.service-info p{font-size:10px}
 
-  .process-roadmap{padding:75px 0 65px}.process-roadmap-container{width:90%}.process-roadmap-header{display:block;margin-bottom:25px}.process-header-left h2{font-size:clamp(48px,13vw,68px);margin-top:17px}.process-header-right{margin-top:22px}.process-intro{display:block}.process-intro>p{font-size:11px}.process-intro-meta{margin-top:17px}.process-active-panel{grid-template-columns:55px 45px 1fr;gap:12px;padding:20px 17px}.process-active-number{font-size:32px}.process-active-icon{width:45px;height:45px}.process-active-content h3{font-size:19px}.process-active-content p{font-size:10px}.process-active-side{display:none}.process-active-tags{gap:5px}.roadmap{height:auto;margin-top:25px}.roadmap-track{display:none}.roadmap-steps{display:flex;flex-direction:column;gap:10px;height:auto}.roadmap-step{height:auto;min-height:0;padding:0}.roadmap-card,.roadmap-step-top .roadmap-card,.roadmap-step-bottom .roadmap-card{position:relative;left:auto;right:auto;top:auto;bottom:auto;min-height:0;padding:18px 16px;transform:none!important;animation:none!important;opacity:1}.roadmap-step:hover .roadmap-card,.roadmap-step-active .roadmap-card{transform:translateX(4px)!important}.roadmap-connector,.roadmap-node{display:none}.roadmap-card-label{margin-top:14px}.roadmap-card h3{font-size:17px}.process-mobile-navigation{display:grid;grid-template-columns:repeat(5,1fr);gap:5px;margin-top:18px}.process-mobile-navigation button{border:1px solid var(--blue-line);background:#fff;color:var(--blue-dark);padding:8px 3px;font-size:8px}.process-mobile-navigation button span{display:block;color:var(--orange);font-weight:900}.process-mobile-navigation button strong{display:block;margin-top:3px;font-size:7px}.process-mobile-navigation button.mobile-step-active{background:var(--blue);border-color:var(--blue);color:#fff}.process-mobile-navigation button.mobile-step-active span{color:var(--orange)}.process-roadmap-footer{display:block}.process-footer-message{font-size:7px}.process-start-link{margin-top:18px}.process-interaction{font-size:7px}
+  .process-roadmap{padding:75px 0 65px}.process-roadmap-container{width:90%}.process-roadmap-header{display:block;margin-bottom:25px}.process-header-left h2{font-size:clamp(48px,13vw,68px);margin-top:17px}.process-header-right{margin-top:22px}.process-intro{display:block}.process-intro>p{font-size:11px}.process-intro-meta{margin-top:17px}.process-active-panel{grid-template-columns:55px 45px 1fr;gap:12px;padding:20px 17px}.process-active-number{font-size:32px}.process-active-icon{width:45px;height:45px}.process-active-content h3{font-size:19px}.process-active-content p{font-size:10px}.process-active-side{display:none}.process-active-tags{gap:5px}.roadmap{height:auto;margin-top:25px}.roadmap-track{display:none}.roadmap-steps{display:flex;flex-direction:column;gap:10px;height:auto}.roadmap-step{height:auto;min-height:0;padding:0}.roadmap-card,.roadmap-step-top .roadmap-card,.roadmap-step-bottom .roadmap-card{position:relative;left:auto;right:auto;top:auto;bottom:auto;min-height:0;padding:18px 16px;transform:none!important;animation:none!important;opacity:1}.roadmap-step:hover .roadmap-card,.roadmap-step-active .roadmap-card{transform:translateX(4px)!important}.roadmap-connector,.roadmap-node{display:none}.roadmap-card-label{margin-top:14px}.roadmap-card h3{font-size:17px}.process-mobile-navigation button.mobile-step-active span{color:var(--orange)}.process-roadmap-footer{display:block}.process-footer-message{font-size:7px}.process-start-link{margin-top:18px}.process-interaction{font-size:7px}
+  /* .process-mobile-navigation{display:grid;grid-template-columns:repeat(5,1fr);gap:5px;margin-top:18px}.process-mobile-navigation button{border:1px solid var(--blue-line);background:#fff;color:var(--blue-dark);padding:8px 3px;font-size:8px}.process-mobile-navigation button span{display:block;color:var(--orange);font-weight:900}.process-mobile-navigation button strong{display:block;margin-top:3px;font-size:7px}.process-mobile-navigation button.mobile-step-active{background:var(--blue);border-color:var(--blue);color:#fff} */
 
   .about{grid-template-columns:1fr;gap:40px;padding-top:65px;padding-bottom:70px}.about-image{height:370px;margin-right:15px}.about-stamp{width:105px;height:105px;right:-15px;bottom:18px;font-size:7px}.about-stamp b{font-size:12px}.about-copy h2,.faq-grid h2{font-size:clamp(40px,11vw,58px)}.about-copy>p{font-size:12px}.about-copy blockquote{font-size:15px}
   .faq{padding-top:70px;padding-bottom:75px}.faq-grid{grid-template-columns:1fr;gap:30px;margin-top:28px}.faq-grid>div:first-child>p{font-size:12px}.faq-item button{font-size:12px;padding:17px 0}
@@ -1137,4 +1138,80 @@ h1,h2{letter-spacing:-.065em}
     max-width: 100%;
     max-height: 100%;
   }
+}
+
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  position: relative;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+}
+
+.socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.socials a:hover {
+  opacity: 0.7;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px 18px;
+    padding-right: 80px; /* keeps content away from WhatsApp */
+  }
+
+  .socials {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    order: 3;
+    flex-shrink: 0;
+    width: auto;
+  }
+
+  .footer-bottom > span:first-child {
+    width: 100%;
+  }
+
+  .footer-bottom > span:nth-child(2) {
+    order: 2;
+  }
+
+  .footer-made {
+    width: 100%;
+    order: 4;
+  }
+}
+
+.email-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.email-link:hover {
+  opacity: 0.7;
 }

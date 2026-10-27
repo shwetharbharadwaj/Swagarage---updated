@@ -93,9 +93,15 @@ export default function Contact() {
         <div className="contact-details">
 
           <div>
+            <a
+            href="mailto:niranjana@swagarage.com?subject=Start%20a%20conversation"
+            className="email-link"
+            >
             <Mail size={17} />
-            <span>Start a conversation</span>
-          </div>
+            <span>Start a conversation - niranjana@swagarage.com</span>
+            </a>
+        </div>
+
 
           <div>
             <MapPin size={17} />

@@ -1,3 +1,4 @@
+
 import React from 'react'
 import { Instagram, Linkedin } from 'lucide-react'
 import Logo from './Logo.jsx'
@@ -19,18 +20,19 @@ export default function Footer() {
 
       <div className="footer-bottom">
         <span>© {new Date().getFullYear()} Swagarage. Build your Swag!</span>
+
         <span>Bengaluru, India</span>
 
         <div className="socials">
           <a
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/swagarage.in"
             aria-label="Instagram"
           >
             <Instagram size={16} />
           </a>
 
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/company/swagarage/"
             aria-label="LinkedIn"
           >
             <Linkedin size={16} />

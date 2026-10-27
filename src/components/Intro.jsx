@@ -145,9 +145,9 @@ export default function Intro() {
 
           <div className="intro-header-counter">
 
-            <span className="counter-active">
+            {/* <span className="counter-active">
               0{activeCard + 1}
-            </span>
+            </span> */}
 
             <span className="counter-line" />
 
